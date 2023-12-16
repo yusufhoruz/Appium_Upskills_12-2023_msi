@@ -1,0 +1,16 @@
+dumpsys window | grep -E "mCurrentFocus"
+
+adb shell dumpsys window | find "mCurrentFocus"
+adb -s emulator-5556 shell dumpsys window | find "mCurrentFocus"
+
+adb shell
+dumpsys window | grep -E "mCurrentFocus"
+
+
+appium --allow-insecure chromedriver_autodownload
+
+
+
+
+
+
